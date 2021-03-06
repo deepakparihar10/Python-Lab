@@ -1,0 +1,10 @@
+a=int(input('Enter the amount'))
+a=a-1
+t=a//2000
+a=a%2000
+f=a//500
+a=a%500
+h=a//100 + 1
+print("2000 Rupees's notes =",t)
+print("500 Rupees's notes =",f)
+print("100 Rupees's notes =",h)
